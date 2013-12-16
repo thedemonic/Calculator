@@ -1,36 +1,13 @@
-*.py[cod]
-
-# C extensions
-*.so
-
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
-__pycache__
-
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
+import math
+print("WELCOME TO THE CALCULATOR!")
+print("   A)Addition")
+print("   B)Subtraction")
+print("   C)Multiplication")
+print("   D)Division")
+choice = raw_input("Pick Your Choice: ")
+if choice=="A":
+  print("You better be ready for some Addition!")
+  x = input("Enter a number: ")
+  y = input("And another: ")
+  print("Your answer is: +str(x+y))
+  
