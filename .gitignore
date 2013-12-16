@@ -10,4 +10,24 @@ if choice=="A":
   x = input("Enter a number: ")
   y = input("And another: ")
   print("Your answer is: +str(x+y))
+  raw_input("Press <ENTER> to exit")
+if choice=="B":
+  print("You better be ready for some Subtraction!")
+  x = input("Enter a number: ")
+  y = input("And another: ")
+  print("Your answer is: +str(x-y))
+  raw_input("Press <ENTER> to exit")
+if choice=="C":
+  print("You better be ready for some multiplication!")
+  x = input("Enter a number: ")
+  y = input("And another: ")
+  print("Your answer is: +str(x*y))
+  raw_input("Press <ENTER> to exit")
+if choice=="D":
+  print("You better be ready for some Division!")
+  x = input("Enter a number: ")
+  y = input("And another: ")
+  print("Your answer is: +str(x/y))
+  raw_input("Press <ENTER> to exit")
+ 
   
